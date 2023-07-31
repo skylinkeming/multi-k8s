@@ -16,7 +16,7 @@ spec:
     - hosts:
         - morningfragrance.com
         - www.morningfragrance.com
-      secretName: morningfragrance-com
+      secretName: morning-fragrance-com
   rules:
     - host: morningfragrance.com
       http:

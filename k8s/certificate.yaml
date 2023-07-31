@@ -1,9 +1,9 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: morningfragrance-com-tls
+  name: morning-fragrance-com-tls
 spec:
-  secretName: morningfragrance-com
+  secretName: morning-fragrance-com
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
